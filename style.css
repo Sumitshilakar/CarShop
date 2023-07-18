@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.car {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  flex: 1 0 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.car h2 {
+  margin: 0;
+}
+
+.price, .quantity {
+  margin-top: 10px;
+}
